@@ -10,8 +10,6 @@ public abstract class AreaRenderer : MonoBehaviour
     protected static PolygonGroup currentPolygonArea;
     protected static float currentPrecision;
 
-    public Color Color { get; protected set; }
-
     private void Awake ()
     {
         currentColor = Color.white;
